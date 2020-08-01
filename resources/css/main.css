@@ -4,6 +4,6 @@
 
 @tailwind utilities;
 
-.spinner{
-	position: absolute;
+.spinner {
+    position: absolute;
 }
