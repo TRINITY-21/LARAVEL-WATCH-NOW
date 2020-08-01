@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WatchNow</title>
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/main.css') }}">
 
-    {{-- <link rel="stylesheet" href="/css/main.css"> --}}
+
     @livewireStyles
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
@@ -36,7 +36,7 @@
                 <livewire:search-dropdown>
                     <div class="md:ml-4 ml-2 mt-3 md:mt-0">
                         <a href="#">
-                            <img src="/img/avatar.JPG" class="rounded-full w-8 h-8" alt="portrait">
+                            <img src="{{ asset('/img/avatar.JPG')}}" class="rounded-full w-8 h-8" alt="portrait">
                         </a>
                     </div>
             </div>
