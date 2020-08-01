@@ -33,3 +33,7 @@ Route::get('/actors/{id}', 'ActorsController@show')->name('actors.show');
 
 Route::get('/tv/{id}', 'TvController@show')->name('tv.show');
 Route::get('/tv', 'TvController@index')->name('tv.index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
